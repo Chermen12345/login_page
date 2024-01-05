@@ -1,0 +1,118 @@
+body{
+    background: url('/assets/background.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    
+}
+.login-section{
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    
+    flex-wrap: wrap;
+    width: 435px;
+    height: 294px;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+}
+.main-title{
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    margin: 10px 0 0 0;
+}
+.ed-email{
+    width: 200px;
+    height: 35px;
+    margin: 10px 0 0 0;
+    
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    background-color: transparent;
+    border-color: white;
+    border-radius: 15px;
+    border-width: 1px;
+    border-style: solid;
+    color: white;
+    
+}
+.ed-email::placeholder{
+    color: white;
+    font-size: 15px;
+}
+.ed-email:focus{
+    outline: none;
+}
+.ed-pass{
+    width: 200px;
+    height: 35px;
+    margin: 10px 0 0 0;
+    
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    background-color: transparent;
+    border-color: white;
+    border-radius: 15px;
+    border-width: 1px;
+    border-style: solid;
+    color: white;
+    
+}
+.ed-pass::placeholder{
+    font-size: 15px;
+    
+    color: white;
+}
+.ed-pass:focus{
+    outline: none;
+}
+
+.forgot-pass-box{
+    margin: 0;
+    width: 200px;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.p-forgot-pass{
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 10px 0 0 0;
+    
+}
+.bt-login{
+    width: 200px;
+    height: 35px;
+    border-radius: 15px;
+    border-width: 0px;
+    font-size: 10px;
+    color: black;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
+}
+.icons-box{
+    margin: 10px 0 0 0;
+    width: 200px;
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.icons-box img{
+    width: 28px;
+    height: 28px;
+}
+
+
