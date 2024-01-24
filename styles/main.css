@@ -1,5 +1,6 @@
 body{
-    background: url('/assets/background.jpg') no-repeat;
+    background: url('/assets/img.jpg');
+    
     background-size: cover;
     background-position: center;
     min-height: 100vh;
@@ -11,11 +12,13 @@ body{
     
 }
 .login-section{
+    border: 1px solid rgb(255, 255, 255);
+    
+    
     border-radius: 30px;
     display: flex;
     flex-direction: column;
     align-content: center;
-    
     flex-wrap: wrap;
     width: 435px;
     height: 294px;
@@ -45,9 +48,13 @@ body{
     color: white;
     
 }
+.ed-email input{
+    padding: 20px 45px 20px 20px;
+}
 .ed-email::placeholder{
     color: white;
     font-size: 15px;
+    padding: 20px 45px 20px 5px;
 }
 .ed-email:focus{
     outline: none;
@@ -69,7 +76,7 @@ body{
 }
 .ed-pass::placeholder{
     font-size: 15px;
-    
+    padding: 20px 45px 20px 5px;
     color: white;
 }
 .ed-pass:focus{
